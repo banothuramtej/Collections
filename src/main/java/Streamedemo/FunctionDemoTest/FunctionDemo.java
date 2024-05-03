@@ -1,8 +1,5 @@
 package Streamedemo.FunctionDemoTest;
 
-import jdk.tools.jmod.Main;
-
-import javax.print.DocFlavor;
 import java.util.function.BiFunction;
 
 public class FunctionDemo {
@@ -29,8 +26,9 @@ public class FunctionDemo {
 
     }
 
+
     public static void main(String[] args) {
         FunctionDemo functionDemo=new FunctionDemo();
-        demoTest .concateName("Varalaxmi");
+        functionDemo.concateName("","");
     }
 }
